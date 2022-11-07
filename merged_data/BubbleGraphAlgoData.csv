@@ -1,0 +1,29 @@
+Syndrome,Iran_hosp,Iran_hosp,Iran_Dead,Iran_Dead,Colombia_Hosp,Colombia_Hosp,Colombia_Dead,Colombia_Dead,Lebanon_Hosp,Lebanon_Hosp,Lebanon_Dead,Lebanon_Dead,Thailand_Hosp,Thailand_Hosp,Thailand_Dead,Thailand_Dead,Turkey_Hosp,Turkey_Hosp,Turkey_Dead,Turkey_Dead,Venezuela_Hosp,Venezuela_Hosp,Venezuela_Dead,Venezuela_Dead,Yemen_Hosp,Yemen_Hosp,Yemen_Dead,Yemen_Dead,Aleppo_Hosp,Aleppo_Hosp,Aleppo_Dead,Aleppo_Dead,Nairobi_Hosp,Nairobi_Hosp,Nairobi_Dead,Nairobi_Dead,Karachi_Hosp,Karachi_Hosp,Karachi_Dead,Karachi_Dead,Saudiarabia_Hosp,Saudiarabia_Hosp,Saudiarabia_Dead,Saudiarabia_Dead,All_Hosp,All_Hosp,All_Dead,All_Dead
+bleeding,cough,vomiting,,,cough,vomiting,cough,,cough,vomiting,cough,,,,,,,,,,cough,vomiting,cough,vomiting,cough,,cough,vomiting,cough,,cough,,cough,,cough,,cough,,cough,,vomiting,cough,cough,,cough,vomiting,vomiting,cough
+abscess,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dizziness,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+breathing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+chest,body pain,,,,body pain,,,,body pain,,,,body pain,,,,body pain,,body pain,,body pain,,,,body pain,,,,body pain,,,,body pain,,,,body pain,,,,body pain,,,,body pain,,,
+urinate,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vocal Problems,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vomiting,abdominal pain,body pain,body pain,headache,abdominal pain,body pain,body pain,headache,abdominal pain,body pain,body pain,headache,abdominal pain,body pain,headache,fever,abdominal pain,body pain,diarrhea,fever,abdominal pain,body pain,body pain,vision,abdominal pain,body pain,body pain,vision,abdominal pain,body pain,body pain,vision,abdominal pain,body pain,body pain,vision,abdominal pain,body pain,body pain,vision,abdominal pain,body pain,body pain,vision,abdominal pain,body pain,body pain,headache
+headache,vomiting,fever,body pain,vomiting,,,body pain,vomiting,vision,fever,body pain,vomiting,vision,fever,vomiting,fever,vision,,vision,,vision,vomiting,body pain,vision,vision,,body pain,vomiting,vision,,vomiting,body pain,vision,,body pain,vomiting,vision,,body pain,vomiting,vision,,body pain,vomiting,vision,fever,body pain,vomiting
+laceration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cramp,,,abdominal pain,,,,abdominal pain,,,,abdominal pain,,,,,,,,,,abdominal pain,,abdominal pain,,abdominal pain,,abdominal pain,,abdominal pain,,abdominal pain,,abdominal pain,,abdominal pain,,,,abdominal pain,,,,abdominal pain,,abdominal pain,,abdominal pain,
+pregnant,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+migraine,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+rash,,,vomiting,,fever,,vomiting,,fever,,vomiting,,fever,,fever,,fever,,,,fever,,vomiting,,fever,,vomiting,,fever,,vomiting,,fever,,vomiting,,fever,,vomiting,,fever,,vomiting,,fever,,vomiting,fever
+fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+injury,,,,,,,,,,,,,,,,,,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,cough,
+deficit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vaginal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+diarrhea,vomiting,fever,vomiting,fever,fever,vomiting,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,,,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever,vomiting,fever
+abdominal pain,vomiting,body pain,body pain,vomiting,vomiting,body pain,cramp,body pain,vomiting,body pain,cramp,vomiting,body pain,vomiting,body pain,fever,body pain,vomiting,body pain,,body pain,vomiting,body pain,vomiting,body pain,vomiting,cramp,vomiting,body pain,vomiting,vomiting,body pain,body pain,vomiting,vomiting,body pain,body pain,vomiting,cramp,,vomiting,body pain,body pain,vomiting,body pain,vomiting,vomiting,body pain
+infections,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cough,bleeding,fever,,,bleeding,fever,bleeding,,bleeding,fever,bleeding,,fever,,fever,,fever,,fever,injury,bleeding,fever,bleeding,,bleeding,fever,bleeding,,bleeding,fever,bleeding,,bleeding,,bleeding,,bleeding,fever,bleeding,,fever,bleeding,bleeding,,bleeding,fever,bleeding,fever
+diabetic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+body pain,abdominal pain,vomiting,vomiting,headache,abdominal pain,vomiting,vomiting,headache,vomiting,abdominal pain,vomiting,headache,abdominal pain,vomiting,abdominal pain,fever,abdominal pain,vomiting,abdominal pain,chest,abdominal pain,vomiting,vision,headache,abdominal pain,vomiting,vomiting,vision,abdominal pain,vomiting,vomiting,vision,abdominal pain,vomiting,vomiting,vision,abdominal pain,vomiting,vomiting,vision,abdominal pain,vomiting,vomiting,vision,abdominal pain,vomiting,vomiting,headache
+Heart Problems,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+fever,body pain,diarrhea,diarrhea,vomiting,body pain,diarrhea,body pain,abdominal pain,abdominal pain,body pain,body pain,abdominal pain,diarrhea,headache,abdominal pain,body pain,diarrhea,vomiting,vomiting,diarrhea,diarrhea,vomiting,body pain,abdominal pain,abdominal pain,body pain,body pain,abdominal pain,abdominal pain,body pain,body pain,abdominal pain,body pain,abdominal pain,abdominal pain,body pain,abdominal pain,body pain,body pain,abdominal pain,abdominal pain,body pain,body pain,abdominal pain,body pain,abdominal pain,abdominal pain,body pain
+vision,,,body pain,vomiting,,,vomiting,headache,headache,,vomiting,body pain,headache,,body pain,,headache,,headache,body pain,headache,,body pain,headache,headache,,body pain,vomiting,headache,,body pain,vomiting,headache,,vomiting,body pain,headache,,body pain,vomiting,headache,,body pain,vomiting,headache,body pain,body pain,vomiting
+others,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

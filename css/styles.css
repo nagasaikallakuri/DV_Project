@@ -1,0 +1,145 @@
+html {
+  scroll-behavior: smooth;
+}
+svg {
+  margin: 10px;
+}
+
+#wrapper {
+  margin: auto;
+}
+.sticky {
+  z-index: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  height: 50px;
+  display: inline;
+  padding: 30px 0;
+}
+.container {
+  width: 100% !important;
+  background-color: rgb(212 215 210);
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: initial !important;
+}
+.selection-container {
+  width: 100% !important;
+  background-color: rgb(212 215 210);
+  padding-bottom: 4vh;
+}
+.body {
+  background-color: rgb(255, 233, 159);
+}
+.navbar-brand {
+  position: relative;
+  align-self: center;
+  font-size: 20px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-right: 1vw;
+  font-weight: 500;
+  margin-left: 1vw;
+}
+
+.nav-item {
+  position: relative;
+  display: inline;
+  margin-left: 3vw;
+  margin-bottom: 4vh;
+  margin-top: 4vh;
+}
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 100%;
+}
+.main-menu {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: black !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: black !important;
+  font-size: 16px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 16px !important;
+  padding-right: 0rem !important;
+  padding-left: 0.1vw !important;
+}
+.option-selection {
+  justify-content: space-around;
+  padding-top: 2vh;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.option-combo {
+  width: 40vw;
+  background-color: #aeb1b4;
+  color: black;
+  text-align: center;
+}
+.option-combo:hover,
+.option-combo:focus {
+  background-color: #727171;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15vw;
+  margin: 5vh 0vw 6vh 15vw;
+}
+.graph-container {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  background-color: white;
+  width: 80vw;
+  height: 90vh;
+  margin-bottom: 7vh;
+}
+.graph-header {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5vh;
+}
+
+.toolTip {
+  color: #222;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 2px 0px #a6a6a6;
+  padding: 0.2em;
+  text-shadow: #f5f5f5 0 1px 0;
+  opacity: 0.9;
+  position: absolute;
+  display: none;
+}
+
+#vis2 {
+  width: 81vw;
+}
+.reset {
+  margin-left: 150vh;
+  border-radius: 8px;
+  background-color: rgb(201, 195, 195);
+  color: black;
+}

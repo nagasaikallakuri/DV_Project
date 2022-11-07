@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--<html dir="ltr" lang="en">-->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/styles.css">
+    <title></title>
+   <script src="https://d3js.org/d3.v7.min.js"></script>
+   <script src="https://d3js.org/d3.v6.js"></script>
+
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+      <div class="body">
+    <div class='sticky'>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark navbar-fixed-top main-menu " style="z-index: 1">
+    <div class="container" >
+       <a class="navbar-brand" href="">CSE 578 - DATA VISUALIZATION</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#graph1"onClick= "window.location='#graph1'">Country Wise Pandemics</a>
+          <a class="nav-item nav-link" href="#graph2" onClick= "window.location='#graph2'">Age Wise Vis</a>
+          <a class="nav-item nav-link" href="#graph3" onClick= "window.location='#graph3'">Syndrome Criticality Vis</a>
+          <a class="nav-item nav-link" href="#graph4" onClick= "window.location='#graph4'">Gender Based Vis</a>
+          <a class="nav-item nav-link" href="#graph5" onClick= "window.location='#graph5'">Life Vs Death Rate</a>
+      </div>
+    </div>
+  </div>  
+  </nav>
+</div>
+      <div class="grid-container" >
+            <div >
+              <h1>VAST Challenge 2010</h1>
+              <h1>Mini-Challenge 2: Characterization of Pandemic Spread</h1>
+            </div>
+            <div>
+              <img src="./images/pandemic.png" class="img-fluid" width="300" height="200">
+            </div>
+      </div>
+  <div class='sticky'>
+    <header class = "bg-light" style="min-height: 20px;margin-top: 20px;">
+      <div class="selection-container flex-col">
+        <div class="option-selection flex-row">
+          <b><label style="font-size: 20px">Country</label></b>
+        <b><label style="font-size: 20px">Survival</label></b>
+        </div>
+        <div class="option-selection flex-row">
+          <select id = 'countries' onchange = "drawGraphs()" class="btn btn-dark dropdown-toggle option-combo">
+            <option value="All">ALL</option>
+            <option value="Aleppo">ALEPPO </option>
+            <option value="Colombia">COLOMBIA</option>
+            <option value="Iran">IRAN</option>
+            <option value="Karachi">KARACHI</option>
+            <option value="Lebanon">LEBANON</option>
+            <option value="Nairobi">NAIROBI</option>
+            <option value="Saudiarabia">SAUDI ARABIA</option>
+            <option value="Thailand">THAILAND</option>
+            <option value="Turkey">TURKEY</option>
+            <option value="Venezuela">VENEZUELA</option>
+            <option value="Yemen">YEMEN</option>
+          </select>
+          <select id = 'survival' onchange = "drawGraphs()" class="btn btn-dark dropdown-toggle option-combo">
+            <option value="Hosp">Hospitalized</option>
+            <option value="Dead">Dead</option>  
+          </select>
+        </div>
+      </div>
+    </header>    
+  </div>    
+    <div id="graph1">
+      <h4 class="graph-header"> STREAM GRAPH OVER TIME</h4>
+      <button class="reset" onClick="drawGraphs()">RESET</button>
+      <div id='vis1' class="graph-container"></div>
+      <div id='vis1_tooltip'></div>
+    </div>
+    <div id="graph2">
+      <h4 class="graph-header" >GROUPED BAR CHART FOR AGE GROUPS</h4>
+      <div id = "vis2" class="graph-container"></div>
+      <div class="toolTip"></div>
+    </div>
+    <div id="graph3">
+      <h4 class="graph-header" >BUBBLE CHART FOR SYNDROME ANALYSIS</h4>
+      <button class="reset" onClick="drawGraphs()">RESET</button>
+      <div id = "vis3" class="graph-container"></div>
+      <div id = "vis3tooltip" class="toolTip"></div>
+    </div> 
+    <div id="graph4">
+      <h4 class="graph-header" >CLEVELAND DOT PLOT FOR GENDER BASED DEATHS</h4>
+      <svg id = "vis4" class="graph-container"></svg>
+      <div id = "cleveland3tooltip"></div>
+    </div> 
+    <div id="graph5">
+      <h4 class="graph-header" >DOUBLE CIRCULAR BAR PLOT SHOWING LIFESPAN AND PERCENTAGE OF DEATHS</h4>
+      <svg id = "vis5" class="graph-container"></svg>
+      <div id = "circulaBarTooltip"> </div>
+    </div>
+</div>
+</body>
+</html>
